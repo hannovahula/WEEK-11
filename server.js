@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(`/ingredients`, ingredientRouter);
 app.use(`/recipes`, recipeRouter);
-app.use(`/g`, fullRecipesRouter);
+app.use(`/fullRecipes`, fullRecipesRouter);
 app.use(`/random`, randomRouter);
 
 app.listen(3000, () => {
